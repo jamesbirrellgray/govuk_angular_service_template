@@ -1,0 +1,18 @@
+// Imports
+// ==========================================================================
+
+// Path to assets for use with the file-url function
+// in the govuk frontend toolkit's url-helpers partial
+$path: "/assets/govuk/images/";
+
+// GDS styles
+@import "../govuk/sass/govuk-elements";
+
+// Our styles (ITCSS - https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture)
+@import "settings/_settings";
+@import "tools/_tools";
+@import "generic/_generic";
+@import "elements/_elements";
+@import "objects/_objects";
+@import "components/_components";
+@import "utilities/_utilities";

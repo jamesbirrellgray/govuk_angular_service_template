@@ -1,0 +1,29 @@
+/*
+Buttons
+
+This is used for the show more link on the Your plea page
+*/
+
+$module: "link";
+
+.#{$module} {
+
+  &-button {
+    background: rgba(0,0,0,0);
+    border: 0 none;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+
+    &:focus {
+      outline: 3px solid $focus-colour;
+    }
+
+  }
+
+  &-button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+}

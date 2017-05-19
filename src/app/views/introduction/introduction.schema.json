@@ -1,0 +1,36 @@
+{   
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "description": "First name"
+      },
+      "lastName": {
+        "type": "string",
+        "description": "Last name"
+      },
+      "email": {
+        "type": "string",
+        "description": "Email"
+      },
+      "notificationsFrequency": {
+        "type":"string",
+        "description": "Notifications frequency",
+        "widget": "select",
+        "oneOf": [{
+          "description": "Daily", "enum": ["daily"]
+        }, {
+          "description": "Weekly", "enum": ["weekly"]
+        }, {
+          "description": "Monthly", "enum": ["monthly"]
+        }],
+        "default": "daily"
+      }
+  },
+  "fieldsets": [{
+    "title": "Personal information",
+    "fields": ["firstName", "lastName", "email"]
+  }, {
+    "title": "Account settings",
+    "fields": ["notificationsFrequency"]
+  }]
+}

@@ -1,0 +1,38 @@
+{
+	"service": {
+		"name": "Make a plea",
+		"root": "src",
+		"viewsRoot": "views"
+	},
+	"views": [
+		{ 
+			"path": "",
+			"component": "IntroductionComponent",
+			"schema": {
+
+			}
+		},
+		{   
+			"path": "your-details",
+			"component": "YourDetailsComponent",
+			"schema": {
+				
+			}
+		},
+		{ 
+			"path": "your-plea-has-been-submitted",
+			"component": "YourPleaHasBeenSubmittedComponent",
+			"schema": {
+				
+			}
+		},
+		{ 
+			"path": "**",
+			"title": "Page not found",
+			"component": "IntroductionComponent",
+			"schema": {
+				
+			}
+		}
+	]
+}
