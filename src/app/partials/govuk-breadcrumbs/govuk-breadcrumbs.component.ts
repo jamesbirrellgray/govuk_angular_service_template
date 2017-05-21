@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $:JQueryStatic;
 
 @Component({
   selector: 'app-govuk-breadcrumbs',
