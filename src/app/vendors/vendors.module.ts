@@ -1,13 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MaterialModule } from '@angular/material';
+import { NgReduxModule, NgRedux } from '@angular-redux/store';
 @NgModule({
   imports: [
     CommonModule,
-    MaterialModule
-  ],
-  exports: [
-    MaterialModule
+    NgReduxModule
   ],
   declarations: []
 })
